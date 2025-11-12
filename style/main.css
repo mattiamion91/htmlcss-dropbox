@@ -8,11 +8,35 @@
 
 /*utility*/
 
+.btn {
+    background-color: rgb(36, 122, 255);
+    color: white;
+    padding: 5px 10px;
+}
+
+.btn:hover {
+    background-color: skyblue;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+
 body {
     background-color: bisque;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;        
+}
+
+/*header*/
+
+header {
+    padding: 20px 20px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
