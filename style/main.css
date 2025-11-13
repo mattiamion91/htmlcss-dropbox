@@ -17,6 +17,7 @@ li {
     background-color: rgb(36, 122, 255);
     color: white;
     padding: 5px 10px;
+    text-decoration: none;
 }
 
 .btn:hover {
@@ -55,12 +56,17 @@ header {
 
 /*jumbotron section*/
 
+.margin-jumbo {
+    margin: 30px 0;
+}
+
 section h1 {
     font-size: 67px;
     font-weight: 900;
 }
 
 section.jumbotron {
+
     background-color: rgb(180, 208, 230);
     padding: 100px 200px;
 }
@@ -70,6 +76,7 @@ section.jumbotron a {
 }
 
 .jumbotron-section {
+    margin-top: 50px;
     display: flex;
 }
 
@@ -86,6 +93,29 @@ section.jumbotron a {
 
 /*plans section*/
 
+.big-card {
+    margin: 30px 0;
+}
+
+section .format-card {
+    margin: 20px 15px;
+}
+
+.big-car-item-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.right-big-card-item {
+    flex-basis: 250px;
+}
+
+.label-box {
+    text-align: center;
+    padding: 10px 0;
+}
+
 .border-gery {
     border: solid 1px lightgray;
 }
@@ -96,7 +126,7 @@ section.jumbotron a {
 
 section.plans {
     padding: 50px 250px;
-    background-color: aqua;
+    /*background-color: aqua;*/
 }
 
 .plans-container {
@@ -121,7 +151,7 @@ section.plans {
 }
 
 .margin-partner {
-    margin: 20px 0;
+    margin: 20px
 }
 
 section .right-partner {
@@ -169,6 +199,7 @@ section.card-container {
 section.business {
     padding: 50px 250px
 }
+
 section.business h2 {
     font-size: 45px;
     padding-bottom: 40px;
@@ -180,7 +211,7 @@ section.business a {
 
 /*footer*/
 
-.border-footer{
+.border-footer {
     border-bottom: solid white 1px;
     padding-bottom: 50px;
 }
@@ -230,64 +261,64 @@ h5 {
 
 /* The container */
 .container {
-  display: block;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 22px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 /* Hide the browser's default radio button */
 .container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
 }
 
 /* Create a custom radio button */
 .checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: #eee;
-  border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
 }
 
 /* On mouse-over, add a grey background color */
-.container:hover input ~ .checkmark {
-  background-color: #ccc;
+.container:hover input~.checkmark {
+    background-color: #ccc;
 }
 
 /* When the radio button is checked, add a blue background */
-.container input:checked ~ .checkmark {
-  background-color: #2196F3;
+.container input:checked~.checkmark {
+    background-color: #2196F3;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
 .checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
+    content: "";
+    position: absolute;
+    display: none;
 }
 
 /* Show the indicator (dot/circle) when checked */
-.container input:checked ~ .checkmark:after {
-  display: block;
+.container input:checked~.checkmark:after {
+    display: block;
 }
 
 /* Style the indicator (dot/circle) */
 .container .checkmark:after {
- 	top: 9px;
-	left: 9px;
-	width: 8px;
-	height: 8px;
-	border-radius: 50%;
-	background: white;
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
 }
