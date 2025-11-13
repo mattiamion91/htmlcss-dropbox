@@ -30,7 +30,7 @@ header a {
 }
 
 body {
-    background-color: bisque;
+    /*background-color: bisque;*/
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
 }
@@ -38,7 +38,7 @@ body {
 /*header*/
 
 .bottom-black-border:hover {
-    padding-bottom: 24px;
+    padding-bottom: 28px;
     border-bottom: 2px solid black;
 }
 
@@ -83,6 +83,13 @@ section.jumbotron a {
     background-color: blueviolet;
 
 }*/
+
+/*plans section*/
+
+section.plans {
+    padding: 50px 250px;
+    background-color: aqua;
+}
 
 /*partner section*/
 
@@ -132,7 +139,7 @@ section.card-container {
 .card {
     /*height: 200px;*/
     width: calc((100%/3) - (40px/3));
-    background-color: violet;
+    /*background-color: violet;*/
 }
 
 /*business section*/
