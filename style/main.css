@@ -74,17 +74,69 @@ section.jumbotron a {
 }
 
 .jumbo-left-item {
-    width: 30%
+    width: 45%
 }
 
-.jumbo-right-item {
+/*.jumbo-right-item {
     height: 100px;
     width: 100px;
     background-color: blueviolet;
 
+}*/
+
+/*partner section*/
+
+.btn-partner {
+    border: solid 1px black;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.margin-partner {
+    margin: 20px 0;
+}
+
+section .right-partner {
+    width: 40%;
+}
+
+section.partnership img {
+    width: 60%;
+}
+
+section.partnership {
+    padding: 50px 250px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+/*operation boxes*/
+
+h2.h2-paddin-size {
+    padding: 50px 250px;
+    font-size: 40px;
+}
+
+section img {
+    width: 100%;
+}
+
+section.card-container {
+    padding: 50px 250px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    /*height: 200px;*/
+    width: calc((100%/3) - (40px/3));
+    background-color: violet;
 }
 
 /*business section*/
+
 
 section.business {
     padding: 50px 250px
