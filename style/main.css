@@ -57,9 +57,19 @@ header {
     z-index: 10;
 }
 
+.left-item-header {
+    display: flex;
+    justify-content: center;
+}
+
 /*main*/
 
 /*jumbotron section*/
+
+.whole-jumbo-section {
+    position: relative;
+    top: 120px;
+}
 
 .margin-jumbo {
     margin: 30px 0;
@@ -73,7 +83,7 @@ section h1 {
 section.jumbotron {
 
     background-color: rgb(180, 208, 230);
-    padding: 150px 200px;
+    padding: 50px 200px;
 }
 
 section.jumbotron a {
@@ -99,7 +109,7 @@ section.jumbotron a {
 /*plans section*/
 
 .down-arrow {
-    margin-top: 100px;
+    margin-top: 40px;
     font-size: 75px;
 }
 
@@ -120,7 +130,7 @@ section .font-size {
 }
 
 section .format-card {
-    margin: 20px 15px;
+    margin: 20px 20px;
 }
 
 .big-car-item-container {
@@ -130,7 +140,7 @@ section .format-card {
 }
 
 .right-big-card-item {
-    flex-basis: 220px;
+    flex-basis: 225px;
 }
 
 .label-box {
@@ -147,7 +157,7 @@ section .format-card {
 }
 
 section.plans {
-    padding: 50px 250px;
+    padding: 100px 250px;
     /*background-color: aqua;*/
 }
 
